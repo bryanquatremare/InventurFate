@@ -9,6 +9,7 @@ Objectifs:
   - + Mise en place d'une jauge sel/sucre
   - Gestion des inventaires
   - + Création/modification/gestion des maps
+  - Système de sauvegarde
   
   
 Propositions de noms:
