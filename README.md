@@ -6,9 +6,9 @@ Objectifs:
   - Tableau de scores
   - Système de login (sur un serveur local)
   - Fiches persos (base de données située sur le serveur)
-  + Mise en place d'une jauge sel/sucre
+  - + Mise en place d'une jauge sel/sucre
   - Gestion des inventaires
-  + Création/modification/gestion des maps
+  - + Création/modification/gestion des maps
   
   
 Propositions de noms:
