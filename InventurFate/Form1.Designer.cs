@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.titleLabel = new System.Windows.Forms.Label();
+            this.connectButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.loginLabel = new System.Windows.Forms.Label();
+            this.PasswordLabel = new System.Windows.Forms.Label();
+            this.AccountLabel = new System.Windows.Forms.Label();
+            this.createButton = new System.Windows.Forms.Button();
+            this.parameterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // titleLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(452, 74);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Inventurfate";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Location = new System.Drawing.Point(22, 32);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(452, 74);
+            this.titleLabel.TabIndex = 0;
+            this.titleLabel.Text = "Inventurfate";
+            this.titleLabel.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // button1
+            // connectButton
             // 
-            this.button1.Location = new System.Drawing.Point(239, 266);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Connect";
-            this.button1.UseVisualStyleBackColor = true;
+            this.connectButton.Location = new System.Drawing.Point(239, 266);
+            this.connectButton.Name = "connectButton";
+            this.connectButton.Size = new System.Drawing.Size(75, 23);
+            this.connectButton.TabIndex = 1;
+            this.connectButton.Text = "Connect";
+            this.connectButton.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -74,68 +74,68 @@
             this.textBox2.TabIndex = 3;
             this.textBox2.UseSystemPasswordChar = true;
             // 
-            // label2
+            // loginLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(259, 217);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Login";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.loginLabel.AutoSize = true;
+            this.loginLabel.Location = new System.Drawing.Point(259, 217);
+            this.loginLabel.Name = "loginLabel";
+            this.loginLabel.Size = new System.Drawing.Size(33, 13);
+            this.loginLabel.TabIndex = 4;
+            this.loginLabel.Text = "Login";
+            this.loginLabel.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // PasswordLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(249, 243);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Password";
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Location = new System.Drawing.Point(249, 243);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(53, 13);
+            this.PasswordLabel.TabIndex = 5;
+            this.PasswordLabel.Text = "Password";
             // 
-            // label4
+            // AccountLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 217);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Don\'t have account?";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.AccountLabel.AutoSize = true;
+            this.AccountLabel.Location = new System.Drawing.Point(42, 217);
+            this.AccountLabel.Name = "AccountLabel";
+            this.AccountLabel.Size = new System.Drawing.Size(107, 13);
+            this.AccountLabel.TabIndex = 6;
+            this.AccountLabel.Text = "Don\'t have account?";
+            this.AccountLabel.Click += new System.EventHandler(this.label4_Click);
             // 
-            // button2
+            // createButton
             // 
-            this.button2.Location = new System.Drawing.Point(57, 266);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Create account";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.createButton.Location = new System.Drawing.Point(57, 266);
+            this.createButton.Name = "createButton";
+            this.createButton.Size = new System.Drawing.Size(75, 23);
+            this.createButton.TabIndex = 7;
+            this.createButton.Text = "Create account";
+            this.createButton.UseVisualStyleBackColor = true;
+            this.createButton.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // button3
+            // parameterButton
             // 
-            this.button3.Location = new System.Drawing.Point(411, -1);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Parameter";
-            this.button3.UseVisualStyleBackColor = true;
+            this.parameterButton.Location = new System.Drawing.Point(411, -1);
+            this.parameterButton.Name = "parameterButton";
+            this.parameterButton.Size = new System.Drawing.Size(75, 23);
+            this.parameterButton.TabIndex = 8;
+            this.parameterButton.Text = "Parameter";
+            this.parameterButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 301);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(494, 310);
+            this.Controls.Add(this.parameterButton);
+            this.Controls.Add(this.createButton);
+            this.Controls.Add(this.AccountLabel);
+            this.Controls.Add(this.PasswordLabel);
+            this.Controls.Add(this.loginLabel);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.connectButton);
+            this.Controls.Add(this.titleLabel);
             this.Name = "Form1";
             this.Text = "Login";
             this.ResumeLayout(false);
@@ -145,14 +145,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label titleLabel;
+        private System.Windows.Forms.Button connectButton;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label loginLabel;
+        private System.Windows.Forms.Label PasswordLabel;
+        private System.Windows.Forms.Label AccountLabel;
+        private System.Windows.Forms.Button createButton;
+        private System.Windows.Forms.Button parameterButton;
     }
 }

@@ -49,7 +49,8 @@ namespace InventurFate
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-
+            Form2 createAccount = new Form2();
+            createAccount.Show();
         }
     }
 }
