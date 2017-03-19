@@ -52,5 +52,11 @@ namespace InventurFate
             Form2 createAccount = new Form2();
             createAccount.Show();
         }
+
+        private void parameterButton_Click(object sender, EventArgs e)
+        {
+            Parameter parametre = new Parameter();
+            parametre.Show();
+        }
     }
 }

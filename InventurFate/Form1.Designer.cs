@@ -121,6 +121,7 @@
             this.parameterButton.TabIndex = 8;
             this.parameterButton.Text = "Parameter";
             this.parameterButton.UseVisualStyleBackColor = true;
+            this.parameterButton.Click += new System.EventHandler(this.parameterButton_Click);
             // 
             // Form1
             // 
